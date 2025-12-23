@@ -63,3 +63,16 @@ Big-O gösterimini yazınız.
 
 **O(nlogN)**
 
+**Binary Search Tree**
+
+
+1.  **7:** Root (Kök) olarak belirlenir.
+2.  **5:** 7'den küçüktür. -> 7'nin soluna eklenir.
+3.  **1:** 7'den ve 5'ten küçüktür. -> 5'in soluna eklenir.
+4.  **8:** 7'den büyüktür. -> 7'nin sağına eklenir.
+5.  **3:** 7'den ve 5'ten küçük, 1'den büyüktür. -> 1'in sağına eklenir.
+6.  **6:** 7'den küçük, 5'ten büyüktür. -> 5'in sağına eklenir.
+7.  **0:** 7, 5 ve 1'den küçüktür. -> 1'in soluna eklenir.
+8.  **9:** 7 ve 8'den büyüktür. -> 8'in sağına eklenir.
+9.  **4:** 7 ve 5'ten küçük, 1 ve 3'ten büyüktür. -> 3'ün sağına eklenir.
+10. **2:** 7 ve 5'ten küçük, 1'den büyük, 3'ten küçüktür. -> 3'ün soluna eklenir.
